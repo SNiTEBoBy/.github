@@ -1,0 +1,86 @@
+[
+  {
+    "id": "sma-001",
+    "category": "Strategic Mindset",
+    "title": "Knowledge Base Content Standards",
+    "content": "Input text containing marketing copy, promotional language, or vendor-specific framing is not suitable for a clean, reusable AI knowledge base. Raw promotional language creates noise, reduces precision, and risks model hallucination or bias toward vendor-specific framing.",
+    "tags": ["content-standards", "knowledge-base", "data-quality"]
+  },
+  {
+    "id": "sma-002",
+    "category": "Strategic Mindset",
+    "title": "Content Conversion Decision Framework",
+    "content": "When ingesting external content into a knowledge base, the decision to convert raw marketing copy into structured, neutral knowledge entries is correct. Retaining original promotional wording unchanged is incorrect for knowledge base purposes.",
+    "tags": ["decision-framework", "content-conversion", "knowledge-base"]
+  },
+  {
+    "id": "sma-003",
+    "category": "Implementation",
+    "title": "Factual Extraction Protocol",
+    "content": "Extract only factual core statements from source material. Remove hype phrases, superlatives, and emotionally charged language such as metaphors, action-hero framing, or vendor glorification. Retain technical facts, specifications, and verifiable claims.",
+    "tags": ["extraction", "data-cleaning", "protocol"]
+  },
+  {
+    "id": "sma-004",
+    "category": "Implementation",
+    "title": "Neutral Language Restructuring",
+    "content": "Restructure extracted facts into clear, neutral, declarative sentences. Use consistent terminology. Avoid language that favors any specific vendor over alternatives. Organize output into logical sections with consistent schema.",
+    "tags": ["restructuring", "neutral-language", "schema"]
+  },
+  {
+    "id": "sma-005",
+    "category": "Implementation",
+    "title": "Output Format Standard",
+    "content": "Output structured knowledge as a valid JSON array of knowledge entries. Each entry must include an id, category, title, content, and tags array. This format is suitable for Manus AI, vector databases, and RAG knowledge base systems.",
+    "tags": ["json", "output-format", "rag", "vector-db"]
+  },
+  {
+    "id": "sma-006",
+    "category": "Strategic Considerations",
+    "title": "Single Source of Truth",
+    "content": "Maintain one canonical JSON file as the single source of truth for knowledge entries. This file can be synced across platforms, versioned on GitHub, and pulled via API or Make.com automation workflows.",
+    "tags": ["single-source-of-truth", "versioning", "sync"]
+  },
+  {
+    "id": "sma-007",
+    "category": "Strategic Considerations",
+    "title": "Vendor Neutrality Principle",
+    "content": "Use neutral language in all knowledge entries to prevent the model from favoring any specific vendor or product over alternatives. Technical facts about a vendor's product are acceptable when stated objectively without promotional framing.",
+    "tags": ["vendor-neutrality", "bias-prevention", "objectivity"]
+  },
+  {
+    "id": "sma-008",
+    "category": "Strategic Considerations",
+    "title": "Technical Fact Preservation",
+    "content": "Retain all technical facts from source material, including specifications, architecture details, security capabilities, and integration points. These facts are useful for application security context and engineering decision-making.",
+    "tags": ["technical-facts", "appsec", "preservation"]
+  },
+  {
+    "id": "sma-009",
+    "category": "Strategic Considerations",
+    "title": "Version Control and API Access",
+    "content": "The knowledge base JSON file should be stored in a GitHub repository for version control. It can be accessed programmatically via the GitHub API or integrated into automation pipelines using Make.com webhooks.",
+    "tags": ["github", "api", "make-com", "automation", "version-control"]
+  },
+  {
+    "id": "sma-010",
+    "category": "Application Security Context",
+    "title": "Secret Detection and Protection",
+    "content": "Secret scanning tools detect exposed credentials, API keys, tokens, and other secrets in code repositories. These tools operate by pattern matching against known secret formats from cloud providers and service platforms. Push protection blocks commits containing detected secrets before they reach the repository.",
+    "tags": ["secret-scanning", "push-protection", "appsec", "credentials"]
+  },
+  {
+    "id": "sma-011",
+    "category": "Application Security Context",
+    "title": "Code Scanning and Vulnerability Detection",
+    "content": "Static analysis tools scan source code for security vulnerabilities, coding errors, and potential exploits. Results are surfaced as alerts with severity levels, affected code locations, and remediation guidance. Integration with CI/CD pipelines enables automated scanning on pull requests.",
+    "tags": ["code-scanning", "static-analysis", "sast", "ci-cd", "vulnerabilities"]
+  },
+  {
+    "id": "sma-012",
+    "category": "Application Security Context",
+    "title": "Dependency and Supply Chain Security",
+    "content": "Dependency review tools analyze project dependencies for known vulnerabilities using advisory databases. Automated alerts notify maintainers of vulnerable dependencies with available patch versions. Security updates can be applied automatically through pull request automation.",
+    "tags": ["dependency-review", "supply-chain", "sca", "dependabot", "advisory"]
+  }
+]
