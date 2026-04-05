@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Knowledge Base Schema v2.0 (Flexible)",
+  "description": "Flexible knowledge base schema supporting multiple knowledge domains. Allows any knowledge_base name and source_type while maintaining structural integrity and metadata requirements.",
+  "type": "object",
+  "properties": {
+    "knowledge_base": {
+      "type": "string",
+      "description": "Name of the knowledge base domain (e.g., 'Product CGI Prompt Engineering', 'Application Security', etc.)"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date",
+      "description": "Date when the knowledge base was last updated (YYYY-MM-DD)"
+    },
+    "source_type": {
+      "type": "string",
+      "description": "Type or source of the knowledge (e.g., 'reference guide (structured)', 'vendor documentation', 'community consensus', etc.)"
+    },
+    "entries": {
+      "type": "array",
+      "description": "Array of knowledge entries, each with a category and statements",
+      "items": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string",
+            "description": "Category or topic name for this group of statements"
+          },
+          "statements": {
+            "type": "array",
+            "description": "Array of factual statements or guidance within this category",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          }
+        },
+        "required": ["category", "statements"],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "snite_metadata": {
+      "type": "object",
+      "description": "Metadata for SNiTE (Secure Neutralized Information Transfer Engine) processing and tracking",
+      "properties": {
+        "version": {
+          "type": "string",
+          "description": "Version of this knowledge base"
+        },
+        "processed_by": {
+          "type": "string",
+          "description": "Agent or system that processed this knowledge base"
+        },
+        "security_clearance": {
+          "type": "string",
+          "description": "Security clearance level for this knowledge base"
+        },
+        "no_training_clause": {
+          "type": "boolean",
+          "description": "Whether this knowledge is protected from external training use"
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of when this knowledge base was processed"
+        }
+      },
+      "required": ["version", "processed_by", "no_training_clause", "timestamp"],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "knowledge_base",
+    "last_updated",
+    "source_type",
+    "entries",
+    "snite_metadata"
+  ],
+  "additionalProperties": false
+}

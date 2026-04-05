@@ -1,0 +1,207 @@
+{
+  "knowledge_base": "Product CGI Prompt Engineering - Master Formula",
+  "last_updated": "2026-04-05",
+  "source_type": "reference guide (structured)",
+  "entries": [
+    {
+      "category": "Master Prompt Formula",
+      "statements": [
+        "The fundamental structure for product CGI prompts is: [Product type] in [setting or environment], [camera movement] with [angle], [lighting and mood], [style reference], cinematic, high detail, realistic CGI, product-focused",
+        "Example application: Luxury perfume bottle on marble pedestal, camera slowly rotates around product with dramatic side lighting, close-up shot, moody shadows, golden hour style, hyperreal CGI, inspired by Apple ads",
+        "Master prompt example: Matte black wireless earbuds floating above a stone pedestal, camera orbiting 360 degrees, dramatic spotlight casting soft shadow on white background, macro angle reveals brand logo, cinematic Apple-style CGI, moody and modern"
+      ]
+    },
+    {
+      "category": "Camera Movements for Product CGI",
+      "statements": [
+        "Orbit / Rotate: Use 'camera rotates 360° around the product' to showcase all angles of the product from a complete circular perspective",
+        "Push-in: Use 'slow push-in toward the product' to highlight details and packaging with progressive focus intensification",
+        "Pull-out: Use 'camera pulls away to reveal full...' for dramatic reveals and smooth transitions from close-up to wide view",
+        "Crane up/down: Use 'crane up from bottom to top of product' to emphasize height or vertical elements of the product",
+        "Tilt down/up: Use 'camera tilts down over the product' to reveal branding or unique features on the top surface",
+        "Top-down pan: Use 'overhead camera pans slowly across product' for flat-lay or luxury overview presentations",
+        "Slide / Track: Use 'camera slides sideways past product' for tech-style sleek motion and profile reveals",
+        "Zoom in/out: Use 'camera zooms into product label' to draw focus to logos, text, and fine details",
+        "Rotation-in-place: Use 'product rotates while camera is static' for floating or spotlight-focused looks",
+        "POV reveal: Use 'POV reaching to grab the product' for lifestyle integration and immersive perspective"
+      ]
+    },
+    {
+      "category": "Camera Angles to Pair with CGI Products",
+      "statements": [
+        "Close-up: Use 'close-up on product texture' to show materials, texture details, and branding elements with magnified clarity",
+        "Macro: Use 'extreme close-up of surface' for skin creams, tech finishes, and small details requiring extreme magnification",
+        "Medium angle: Use 'eye-level view of product' for balanced, standard advertising looks that feel natural and accessible",
+        "Low angle: Use 'low angle to emphasize power' for luxury, bold packaging that conveys strength and prestige",
+        "Top-down / Flatlay: Use 'flat lay shot from overhead' for beauty products, packaging reveals, and minimalist compositions",
+        "Dutch angle: Use 'tilted angle for creative style' for edgy fashion or conceptual shots requiring visual tension",
+        "Backlit silhouette: Use 'backlight with rim light edge' for elegant reveals, perfume bottles, and watches with luminous edges"
+      ]
+    },
+    {
+      "category": "Creative CGI Video Ideas",
+      "statements": [
+        "Floating in Light Box: Product floating mid-air with camera orbiting, spotlight highlights, and black backdrop for dramatic isolation",
+        "Cinematic Pouring Effect: Liquid (oil, perfume) pouring in slow-motion with macro angle for viscous, luxurious movement capture",
+        "Futuristic Turntable Reveal: Product on rotating base with neon background and reflections on surface for high-tech aesthetic",
+        "Nature vs Tech Contrast: Camera slides across product in moss/forest setting versus sleek backdrop for conceptual juxtaposition",
+        "Luxury Spa Vibe: Steaming water, marble tiles, smooth tracking over bottle with candlelight mood for premium wellness positioning"
+      ]
+    },
+    {
+      "category": "Keywords for CGI Generation - Lighting",
+      "statements": [
+        "Use 'backlight' for rim-lit silhouettes and edge definition on translucent or reflective products",
+        "Use 'soft shadows' for gentle, diffused shadow transitions that enhance form without harsh contrast",
+        "Use 'moody lighting' for atmospheric, emotionally evocative illumination with selective highlights",
+        "Use 'rim light' for edge-defining light that separates product from background with luminous outlines",
+        "Use 'studio spot' for focused, directional light creating dramatic highlights and controlled shadow play",
+        "Use 'dramatic contrast' for high-key/low-key lighting ratios that emphasize product dimensionality"
+      ]
+    },
+    {
+      "category": "Keywords for CGI Generation - Materials",
+      "statements": [
+        "Use 'reflective surface' for shiny, mirror-like finishes that capture and bounce light realistically",
+        "Use 'chrome' for polished metal with high specularity and mirror-like reflections",
+        "Use 'matte black' for non-reflective, absorptive surfaces with deep color saturation",
+        "Use 'glassy' for transparent or semi-transparent materials with refractive properties",
+        "Use 'brushed aluminum' for directional surface finish with parallel micro-scratches and soft reflections",
+        "Use 'velvet' for soft, light-absorbing fabric with minimal specularity and rich color depth",
+        "Use 'marble' for natural stone with veining, translucency, and subtle reflective properties"
+      ]
+    },
+    {
+      "category": "Keywords for CGI Generation - Effects",
+      "statements": [
+        "Use 'water droplets' for realistic liquid beads on surfaces with refraction and reflection",
+        "Use 'glowing edges' for luminescent rim lighting or self-emissive surface properties",
+        "Use 'soft mist' for atmospheric volumetric fog or haze creating depth and mood",
+        "Use 'particles in light beam' for visible dust or particle effects illuminated by directional light",
+        "Use 'steam' for volumetric vapor effects suggesting warmth or luxury spa environments",
+        "Use 'shimmer' for subtle, shimmering surface reflections and light-catching movement"
+      ]
+    },
+    {
+      "category": "Keywords for CGI Generation - Style",
+      "statements": [
+        "Use 'product photography' for professional, polished aesthetic with controlled lighting and composition",
+        "Use 'luxury packaging' for premium visual treatment emphasizing exclusivity and high-end positioning",
+        "Use 'hyperreal' for photorealistic rendering with meticulous detail and material accuracy",
+        "Use 'cinematic CGI' for film-quality production with dramatic lighting and professional color grading",
+        "Use 'Apple-style ad' for minimalist, elegant aesthetic with focus on form and premium presentation"
+      ]
+    },
+    {
+      "category": "Keywords for CGI Generation - Backgrounds",
+      "statements": [
+        "Use 'white studio backdrop' for clean, professional isolation allowing product to be the sole focus",
+        "Use 'black void' for dramatic, high-contrast isolation with luminous product definition",
+        "Use 'nature-inspired set' for organic, environmental context suggesting natural positioning",
+        "Use 'modern shelf' for contemporary retail or display context with minimalist staging",
+        "Use 'floating scene' for weightless, surreal environment suggesting premium, ethereal positioning"
+      ]
+    },
+    {
+      "category": "30+ Camera Movements for Prompts",
+      "statements": [
+        "Pan left/right: Use 'camera pans left' or 'camera pans right' for horizontal sweeping motion across the product",
+        "Tilt up/down: Use 'camera tilts up' or 'camera tilts down' for vertical sweeping motion revealing vertical product elements",
+        "Dolly in/out: Use 'camera dollies in slowly' or 'camera dollies out dramatically' for forward/backward movement with perspective shift",
+        "Crane up/down: Use 'camera cranes up from ground level' or 'camera cranes down from sky view' for elevated perspective changes",
+        "Push-in: Use 'camera pushes in slowly toward subject's face' for progressive focus intensification toward product details",
+        "Pull-out: Use 'camera pulls out to reveal landscape' for context expansion from close-up to environmental view",
+        "Tracking shot: Use 'camera tracks behind the subject walking' for following motion parallel to product movement",
+        "Orbit shot: Use 'camera orbits around the subject in 360' for complete circular perspective of stationary product",
+        "Handheld: Use 'handheld camera shakes gently, raw documentary style' for organic, naturalistic movement",
+        "POV: Use 'POV shot from character's eyes' for first-person immersive product interaction perspective",
+        "Zoom in/out: Use 'zoom in on expression' or 'zoom out to wide view' for optical magnification without physical camera movement",
+        "Dutch angle: Use 'slight dutch angle for unease' for tilted frame creating visual tension or creative dynamism",
+        "Static shot: Use 'static wide angle shot' for motionless camera capturing complete environmental context",
+        "Steadicam: Use 'smooth steadicam following subject' for fluid, stabilized motion following product movement",
+        "Time-lapse: Use 'time-lapse of sunset over cityscape' for compressed temporal progression showing environmental changes",
+        "Slow motion: Use 'slow motion raindrops hitting pavement' for extended temporal expansion emphasizing motion details",
+        "Rack focus: Use 'camera rack focuses from flower to face' for selective focus transition between foreground and subject",
+        "Over-the-shoulder: Use 'over-the-shoulder angle watching crowd' for secondary perspective viewing product interaction",
+        "Aerial shot: Use 'aerial drone shot of desert landscape' for elevated bird's-eye environmental perspective",
+        "Wide tracking: Use 'wide shot, camera tracks sideways with subject' for lateral movement maintaining wide environmental context"
+      ]
+    },
+    {
+      "category": "Camera Angles You Can Combine",
+      "statements": [
+        "Low angle: Use 'from low angle looking up' to emphasize product height, power, and imposing presence",
+        "High angle: Use 'from high angle looking down' to emphasize product scale, context, and environmental relationship",
+        "Eye-level: Use 'at eye level' for natural, comfortable viewing perspective matching human visual experience",
+        "Overhead: Use 'top-down overhead view' for flat-lay, packaging reveal, and minimalist composition",
+        "Worm's eye view: Use 'extreme low angle' for dramatic upward perspective emphasizing product dominance",
+        "Bird's eye view: Use 'bird's eye perspective' for complete overhead context showing product in environment",
+        "Dutch angle: Use 'off-kilter dutch angle' for tilted, dynamic composition creating visual interest and tension",
+        "Close-up: Use 'tight close-up on expression' for magnified detail focus on product features and textures",
+        "Medium shot: Use 'medium shot from side' for balanced product visibility with contextual environmental elements",
+        "Wide shot: Use 'wide establishing shot' for full environmental context with product as focal point",
+        "Extreme wide shot: Use 'vast landscape with subject small' for environmental emphasis with product as contextual element"
+      ]
+    },
+    {
+      "category": "Keywords for Realism & Style - Lighting & Weather",
+      "statements": [
+        "Use 'overcast' for soft, diffused natural lighting without harsh shadows or direct sunlight",
+        "Use 'harsh shadows' for high-contrast, dramatic shadow definition emphasizing form and dimensionality",
+        "Use 'soft lighting' for gentle, diffused illumination minimizing shadow intensity and contrast",
+        "Use 'golden hour' for warm, directional light during sunrise/sunset creating romantic, premium atmosphere",
+        "Use 'blue hour' for cool, twilight illumination creating moody, sophisticated ambiance",
+        "Use 'flickering neon' for dynamic, colorful artificial light creating contemporary, urban aesthetic",
+        "Use 'moody backlight' for atmospheric rim lighting creating silhouettes and luminous edges",
+        "Use 'heavy snowfall' for volumetric precipitation creating atmospheric depth and seasonal context",
+        "Use 'foggy morning' for volumetric mist creating ethereal, mysterious atmosphere",
+        "Use 'dusty sunset' for warm, particle-filled light creating atmospheric depth and warmth"
+      ]
+    },
+    {
+      "category": "Keywords for Realism & Style - Cinematic Styles",
+      "statements": [
+        "Use '35mm film look' for warm color grading and organic film grain aesthetic",
+        "Use 'analog grain' for visible film grain texture suggesting vintage, organic quality",
+        "Use 'cinematic LUT' for professional color grading matching cinema production standards",
+        "Use 'inspired by Blade Runner' for neo-noir aesthetic with cool tones and dramatic lighting",
+        "Use 'Wong Kar Wai aesthetic' for saturated colors, neon lighting, and romantic visual composition",
+        "Use 'vintage lens distortion' for optical aberrations and vignetting suggesting classic optics",
+        "Use 'bokeh background' for blurred background with smooth, circular out-of-focus highlights"
+      ]
+    },
+    {
+      "category": "Keywords for Realism & Style - Motion Keywords",
+      "statements": [
+        "Use 'slow' for extended temporal duration emphasizing deliberate, controlled movement",
+        "Use 'sweeping' for broad, expansive camera motion covering large spatial areas",
+        "Use 'shaky' for unstable, handheld camera movement suggesting organic, naturalistic capture",
+        "Use 'fluid' for smooth, continuous motion without acceleration or deceleration",
+        "Use 'jittery' for rapid, irregular micro-movements suggesting nervous or energetic energy",
+        "Use 'robotic' for precise, mechanical motion suggesting controlled, automated movement",
+        "Use 'dreamlike' for slow, ethereal motion suggesting surreal, non-linear temporal progression",
+        "Use 'dynamic' for energetic, varied motion suggesting active, engaging visual experience"
+      ]
+    },
+    {
+      "category": "Keywords for Realism & Style - Mood Keywords",
+      "statements": [
+        "Use 'eerie' for unsettling, mysterious atmosphere suggesting tension or supernatural elements",
+        "Use 'nostalgic' for emotionally evocative atmosphere suggesting memory, history, or vintage quality",
+        "Use 'tense' for dramatic, suspenseful atmosphere suggesting conflict or anticipation",
+        "Use 'peaceful' for calm, serene atmosphere suggesting tranquility and relaxation",
+        "Use 'hopeful' for optimistic, uplifting atmosphere suggesting possibility and positive emotion",
+        "Use 'melancholic' for emotionally somber atmosphere suggesting sadness or introspection",
+        "Use 'gritty' for raw, textured atmosphere suggesting authenticity and industrial aesthetic",
+        "Use 'surreal' for dreamlike, impossible atmosphere suggesting fantasy or non-realistic elements"
+      ]
+    }
+  ],
+  "snite_metadata": {
+    "version": "1.0",
+    "processed_by": "SNiTE_BoBy_Unified",
+    "security_clearance": "High-Fidelity",
+    "no_training_clause": true,
+    "timestamp": "2026-04-05T00:00:00Z"
+  }
+}
